@@ -59,7 +59,7 @@ Add Product infomation(Photos and product name etc..will be fetched using Open f
 
 ### Steps
 
-##Frontend
+## Frontend
 
 ```
 $ git clone git@github.com:carveler/Revieu.git
@@ -68,7 +68,7 @@ $ npm install
 $ npm start
 ```
 
-##Backend
+## Backend
 
 ```
 $ git clone git@github.com:carveler/Revieu.git
@@ -80,7 +80,7 @@ $ npm start
 ```
 ## Technologies
 
-###Frontend
+### Frontend
 
 1. React Native
 2. React Navigation
@@ -91,7 +91,7 @@ $ npm start
 7. React Hook Form
 8. a number of 3rd-party libraries
 
-###Backend
+### Backend
 
 1. Node.js
 2. MongoDB
