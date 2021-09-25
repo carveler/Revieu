@@ -1,6 +1,6 @@
 # Revieu Frontend / Backend
 
-<img src="./mobile-client/assets/RevieuLogo.png" alt="revieu" width="100px" height="40px" />
+<img src="./mobile-client/assets/RevieuLogo.png" alt="revieu" width="130px" height="100px" />
 
 
 Product Review App with Barcode Scan and Camera functions  
