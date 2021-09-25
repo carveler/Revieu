@@ -30,13 +30,10 @@ Add Product infomation(Photos automatically  Open food facts API (https://de.ope
 
 ### Screenshots
 
-<img src="./assets/screenshots/authStack.png" alt="revieu: auth screens" width="300px" />
-<img src="./assets/screenshots/swipingBooks.png" alt="revieu: scan product" width="300px" />
-
-<img src="./assets/screenshots/addBook.png" alt="revieu: add a product" width="300px" />
-<img src="./assets/screenshots/savedBooks.png" alt="revieu: add review" width="300px" />
-
 ![alt text](./mobile-client/assets/scan.gif "Scan & Search product")
+
+![alt text](./mobile-client/assets/add.gif "Add product")
+
 
 ### Features
 
