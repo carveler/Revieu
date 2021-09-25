@@ -25,17 +25,10 @@ exports.getUser = async (req, res, next) => {
 
 exports.addUser = async (req, res, next) => {
   const newUser = req.body;
-  const { email, username } = newUser;
   try {
-    const user = await User.find({ email, username });
-    if (user) {
-      console.log(user.username);
-      if (user.email === newUser.email) next(customError(`User already exists!`, 200));
-      if (user.username === newUser.username) next(customError(`Username already exists!`, 200));
-    }
-    const createdUser = await User.create(newUser);
+    const user = await User.create(newUser);
 
-    res.json({ createdUser });
+    res.json({ user });
   } catch (err) {
     next(err);
   }

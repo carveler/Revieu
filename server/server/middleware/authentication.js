@@ -22,19 +22,21 @@ exports.auth = (req, res, next) => {
         verifyAndCreateToken(req.headers.accesstoken, ourSuperSecretSecretKey, req);
       } else {
       if (!req.headers.refreshtoken) {
+        delete req.headers.refreshtoken;
+        delete req.headers.accesstoken;
         next(customError('you have no token', 401))
       }
       if (jwt.decode(req.headers.refreshtoken).exp > Date.now() / 1000) {
       verifyAndCreateToken(req.headers.refreshtoken, ourSuperSecretKey, req);
       } else {
-        delete req.headers.refreshtoken;
-        delete req.headers.accesstoken;
         next(customError('token is expired', 401))
       }
     }
     }
     next();
   } catch (err) {
+    delete req.headers.refreshtoken;
+    delete req.headers.accesstoken;
     next(err);
   }
 };
