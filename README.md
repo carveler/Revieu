@@ -25,7 +25,7 @@ Product Review App React Native App with Barcode Scan and Camera functions
 Product Review App with Barcode Scan and Camera functions.
 Create this app for Japanese who is new or live in Europe.
 Scan the product and see the reviews. 
-Add Product infomation(Photos and product name etc..will fetch using Open food facts API (https://de.openfoodfacts.org/data) and store it to our MongoDB data base
+Add Product infomation(Photos and product name etc..will be fetched using Open food facts API (https://de.openfoodfacts.org/data)) and store it to our MongoDB data base
 
 
 ### GIF
