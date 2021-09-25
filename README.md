@@ -10,7 +10,7 @@ Product Review App with Barcode Scan and Camera functions
 
   - [Table of Contents](#table-of-contents)
   - [About the app](#about-the-app)
-    - [Screenshots](#screenshots)
+    - [GIF](#gif)
     - [Features](#features)
   - [Running locally](#running-locally)
     - [Requirements](#requirements)
@@ -28,7 +28,7 @@ Scan the product and see the reviews.
 Add Product infomation(Photos automatically  Open food facts API (https://de.openfoodfacts.org/data) and store it to our MongoDB data base
 
 
-### Screenshots
+### GIF
 
 ![alt text](./mobile-client/assets/scan.gif "Scan & Search product")
 
