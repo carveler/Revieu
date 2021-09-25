@@ -14,6 +14,10 @@ const { auth } = require('../middleware/authentication');
 // /products
 router.route('/').get(getAllProducts).post(addProduct);
 router.route('/:productId/reviews').get(getProductReviews);
-router.route('/:id').get(getProduct).delete(deleteProduct).patch(auth, updateProduct);
+router
+  .route('/:id')
+  .get(getProduct)
+  .delete(deleteProduct)
+  .patch(auth, updateProduct);
 
 module.exports = router;
