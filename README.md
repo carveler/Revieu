@@ -75,9 +75,22 @@ $ git clone git@github.com:carveler/Revieu.git
 $ cd Revieu/server/
 $ npm install 
 $ touch .env
-Add a .env file like sample.env
+Add a .env file
 $ npm start
 ```
+.env
+
+```
+MONGO_URI_DEV=
+REFRESH_JWT_KEY_DEV=
+VER_KEY_DEV=
+FRONTEND_ORIGIN_DEV=
+MONGO_URI_PROD=
+VER_KEY_PROD=
+FRONTEND_ORIGIN_DEV=
+CLOUDINARY_URL=
+```
+
 ## Technologies
 
 ### Frontend
