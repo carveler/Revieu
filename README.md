@@ -43,8 +43,9 @@ Add Product infomation(Photos automatically  Open food facts API (https://de.ope
 1. Secure login / Registration 
 2. Refersh Token
 3. Searching / Adding products by scan barcode
-4. Review products
-5. Filter product by product name, barcode, any keywords
+4. Store scanned product into Database automatically
+5. Review products
+6. Filter product by product name, barcode, any keywords
 
 
 
