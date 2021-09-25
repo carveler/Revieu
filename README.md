@@ -3,7 +3,7 @@
 <img src="./mobile-client/assets/RevieuLogo.png" alt="revieu" width="130px" height="100px" />
 
 
-Product Review App with Barcode Scan and Camera functions  
+Product Review App React Native App with Barcode Scan and Camera functions  
 
 
 ## Table of Contents
