@@ -42,7 +42,7 @@ Add Product infomation(Photos and product name etc..will fetch using Open food f
 
 1. Secure login / Registration 
 2. Refersh Token
-3. Searching / Adding products by scan barcode
+3. Searching / Adding products by scan barcode fetch data either from our Database or Open Food Fact API
 4. Store scanned product into Database automatically
 5. Review products
 6. Filter product by product name, barcode, any keywords
