@@ -30,28 +30,23 @@ Add Product infomation(Photos automatically  Open food facts API (https://de.ope
 
 ### Screenshots
 
-<img src="./assets/screenshots/authStack.png" alt="librix: auth screens" width="300px" />
-<img src="./assets/screenshots/swipingBooks.png" alt="librix: pool of books with swiping functionality" width="300px" />
+<img src="./assets/screenshots/authStack.png" alt="revieu: auth screens" width="300px" />
+<img src="./assets/screenshots/swipingBooks.png" alt="revieu: scan product" width="300px" />
 
-<img src="./assets/screenshots/addBook.png" alt="librix: add a book" width="300px" />
-<img src="./assets/screenshots/savedBooks.png" alt="librix: saved books" width="300px" />
+<img src="./assets/screenshots/addBook.png" alt="revieu: add a product" width="300px" />
+<img src="./assets/screenshots/savedBooks.png" alt="revieu: add review" width="300px" />
 
-<img src="./assets/screenshots/matches.png" alt="librix: matches functionality" width="300px" />
-<img src="./assets/screenshots/drawer.png" alt="librix: drawer with profile link and books filter" width="300px" />
+![alt text](./mobile-client/assets/scan.gif "Scan & Search product")
 
 ### Features
 
-1. Secure login / registration
-2. Managing a personal profile
-3. Adding books for exchange with images
-4. Navigating the pool of books via swiping
-5. Filtering the pool of books by language, genre, and location
-6. Saving books for later
-7. Creating a match with another user and:
-   1. reserving/accepting the match
-   2. deleting/declining the match
-   3. completing the exchange
-8. Viewing match partner's profile
+1. Secure login / Registration 
+2. Refersh Token
+3. Searching / Adding products by scan barcode
+4. Review products
+5. Filter product by product name, barcode, any keywords
+
+
 
 ## Running locally
 
@@ -92,7 +87,8 @@ $ npm start
 4. Expo
 5. Axios
 6. React Native Paper
-7. a number of 3rd-party libraries
+7. React Hook Form
+8. a number of 3rd-party libraries
 
 ###Backend
 
