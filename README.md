@@ -75,7 +75,7 @@ $ git clone git@github.com:carveler/Revieu.git
 $ cd Revieu/server/
 $ npm install 
 $ touch .env
-Add a MONGO_URI && JWT_SECRET && JWT_EXPIRY to the .env file
+Add a .env file like sample.env
 $ npm start
 ```
 ## Technologies
