@@ -18,7 +18,7 @@ Product Review App React Native App with Barcode Scan and Camera functions
   - [Technologies](#technologies)
   - [Collaboration](#collaboration)
   - [Upcoming features](#upcoming-features)
-  - [Credits](#credits)
+  - [Team](#tean)
 
 ## About the app
 
