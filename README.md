@@ -26,7 +26,7 @@ Product Review App with Barcode Scan and Camera functions.
 
 Create this app for Japanese who is new or live in Europe. when I first came to Germany, 
 
-I have no idea which product to buy in supermarket or Drugstore.
+I have no idea which product to buy at supermarket or drugstore.
 
 With this app you can the product and see the reviews from other Japanese who lives in europe.
 
